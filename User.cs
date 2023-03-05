@@ -10,15 +10,15 @@ namespace BankAccount
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Balance { get; set; }
+        public int Age { get; set; }
+        public int Balance { get; set; }
 
-        public User() 
+        public User(int id,string name,int age,int balance)
         {
-            Id = 0;
-            Name = string.Empty;
-            Balance = string.Empty;
-
+            Id = id;
+            Name = name;
+            Age = age;
+            Balance = balance;
         }
-
     }
 }
