@@ -2,9 +2,11 @@
 
 internal class Program
 {
+    // Instansiates the User object withing a list
     static List<User> user = new List<User>();
     private static void Main(string[] args)
     {
+        // Will keep the while loop running until the user wants to quite
         Boolean run = true;
 
         Console.WriteLine("You can create new user accounts here.");

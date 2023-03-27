@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace BankAccount
 {
+    // User object
     internal class User
     {
         public int Id { get; set; }
